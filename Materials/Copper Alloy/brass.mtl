@@ -1,0 +1,109 @@
+ND_RelParSet_K01 = {
+
+Name = BRASS
+
+PARAMETERS =
+{
+  Name = PTC_MATERIAL_DESCRIPTION
+  Type = String
+  Default = 'Brass, UNS C36000, Rod Bar & Shapes, '
+  Access = Full
+},
+{
+  Name = TEMPERATURE
+  Type = Real
+  Default = 0.000000e+00 C
+  Access = Full
+},
+{
+  Name = PTC_INITIAL_BEND_Y_FACTOR
+  Type = Real
+  Default = 5.000000e-01
+  Access = Full
+},
+{
+  Name = PTC_BEND_TABLE
+  Type = String
+  Default = ''
+  Access = Full
+},
+{
+  Name = PTC_MATERIAL_TYPE
+  Type = Integer
+  Default = 9
+  Access = Locked
+},
+{
+  Name = PTC_FAILURE_CRITERION_TYPE
+  Type = String
+  Default = 'NONE'
+  Access = Locked
+},
+{
+  Name = PTC_FATIGUE_TYPE
+  Type = String
+  Default = 'NONE'
+  Access = Locked
+},
+{
+  Name = PTC_MATERIAL_SUB_TYPE
+  Type = String
+  Default = 'LINEAR'
+  Access = Locked
+},
+{
+  Name = PTC_MASS_DENSITY
+  Type = Real
+  Default = 3.070000e-01 lbm/in^3
+  Access = Full
+},
+{
+  Name = PTC_POISSON_RATIO
+  Type = Real
+  Default = 3.100000e-01
+  Access = Full
+},
+{
+  Name = PTC_YOUNG_MODULUS
+  Type = Real
+  Default = 1.410000e+07 psi
+  Access = Full
+},
+{
+  Name = PTC_THERMAL_EXPANSION_COEF
+  Type = Real
+  Default = 1.140000e-05 /F
+  Access = Full
+},
+{
+  Name = PTC_DEFAULT_APPEARANCE
+  Type = String
+  Default = 'brass_ptc'
+  Access = Full
+},
+{
+  Name = MTL_D1
+  Type = String
+  Default = 'UNS C36000'
+  Access = Locked
+},
+{
+  Name = MTL_D2
+  Type = String
+  Default = 'BRASS'
+  Access = Locked
+},
+{
+  Name = MTL_SPEC
+  Type = String
+  Default = 'ASTM B16'
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_1
+  Type = String
+  Default = 'brass_ptc'
+  Access = Full
+}
+
+}
