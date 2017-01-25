@@ -1,0 +1,109 @@
+ND_RelParSet_K01 = {
+
+Name = 6061-T6_4
+
+PARAMETERS =
+{
+  Name = PTC_MATERIAL_DESCRIPTION
+  Type = String
+  Default = 'AL 6061-T6,UNS A96061, Extrusions & Rings, Bar Rod Shapes Tube & Wire Extruded '
+  Access = Full
+},
+{
+  Name = TEMPERATURE
+  Type = Real
+  Default = 0.000000e+00 C
+  Access = Full
+},
+{
+  Name = PTC_INITIAL_BEND_Y_FACTOR
+  Type = Real
+  Default = 5.000000e-01
+  Access = Full
+},
+{
+  Name = PTC_BEND_TABLE
+  Type = String
+  Default = ''
+  Access = Full
+},
+{
+  Name = PTC_MATERIAL_TYPE
+  Type = Integer
+  Default = 9
+  Access = Locked
+},
+{
+  Name = PTC_FAILURE_CRITERION_TYPE
+  Type = String
+  Default = 'NONE'
+  Access = Locked
+},
+{
+  Name = PTC_FATIGUE_TYPE
+  Type = String
+  Default = 'NONE'
+  Access = Locked
+},
+{
+  Name = PTC_MATERIAL_SUB_TYPE
+  Type = String
+  Default = 'LINEAR'
+  Access = Locked
+},
+{
+  Name = PTC_MASS_DENSITY
+  Type = Real
+  Default = 9.800000e-02 lbm/in^3
+  Access = Full
+},
+{
+  Name = PTC_POISSON_RATIO
+  Type = Real
+  Default = 3.300000e-01
+  Access = Full
+},
+{
+  Name = PTC_YOUNG_MODULUS
+  Type = Real
+  Default = 9.900000e+06 psi
+  Access = Full
+},
+{
+  Name = PTC_THERMAL_EXPANSION_COEF
+  Type = Real
+  Default = 1.270000e-05 /F
+  Access = Full
+},
+{
+  Name = PTC_DEFAULT_APPEARANCE
+  Type = String
+  Default = 'aluminum_ptc'
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_1
+  Type = String
+  Default = 'aluminum_ptc'
+  Access = Full
+},
+{
+  Name = MTL_D1
+  Type = String
+  Default = 'UNS A96061'
+  Access = Locked
+},
+{
+  Name = MTL_D2
+  Type = String
+  Default = 'AL 6061-T6'
+  Access = Locked
+},
+{
+  Name = MTL_SPEC
+  Type = String
+  Default = 'SAE AMS4150, SAE AMS-QQ-A-200/8'
+  Access = Full
+}
+
+}

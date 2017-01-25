@@ -1,0 +1,109 @@
+ND_RelParSet_K01 = {
+
+Name = 7075-T6
+
+PARAMETERS =
+{
+  Name = PTC_MATERIAL_DESCRIPTION
+  Type = String
+  Default = 'AL 7075-T6, UNS A97075, Sheet & Plate, Clad Sheet'
+  Access = Full
+},
+{
+  Name = TEMPERATURE
+  Type = Real
+  Default = 0.000000e+00 C
+  Access = Full
+},
+{
+  Name = PTC_INITIAL_BEND_Y_FACTOR
+  Type = Real
+  Default = 5.000000e-01
+  Access = Full
+},
+{
+  Name = PTC_BEND_TABLE
+  Type = String
+  Default = ''
+  Access = Full
+},
+{
+  Name = PTC_MATERIAL_TYPE
+  Type = Integer
+  Default = 9
+  Access = Locked
+},
+{
+  Name = PTC_FAILURE_CRITERION_TYPE
+  Type = String
+  Default = 'NONE'
+  Access = Locked
+},
+{
+  Name = PTC_FATIGUE_TYPE
+  Type = String
+  Default = 'NONE'
+  Access = Locked
+},
+{
+  Name = PTC_MATERIAL_SUB_TYPE
+  Type = String
+  Default = 'LINEAR'
+  Access = Locked
+},
+{
+  Name = PTC_MASS_DENSITY
+  Type = Real
+  Default = 1.010000e-01 lbm/in^3
+  Access = Full
+},
+{
+  Name = PTC_POISSON_RATIO
+  Type = Real
+  Default = 3.300000e-01
+  Access = Full
+},
+{
+  Name = PTC_YOUNG_MODULUS
+  Type = Real
+  Default = 1.030000e+07 psi
+  Access = Full
+},
+{
+  Name = PTC_THERMAL_EXPANSION_COEF
+  Type = Real
+  Default = 1.230000e-05 /F
+  Access = Full
+},
+{
+  Name = PTC_DEFAULT_APPEARANCE
+  Type = String
+  Default = 'aluminum_ptc'
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_1
+  Type = String
+  Default = 'aluminum_ptc'
+  Access = Full
+},
+{
+  Name = MTL_D1
+  Type = String
+  Default = 'UNS A97075'
+  Access = Locked
+},
+{
+  Name = MTL_D2
+  Type = String
+  Default = 'AL 7075-T6'
+  Access = Locked
+},
+{
+  Name = MTL_SPEC
+  Type = String
+  Default = 'SAE AMS4045, SAE AMS4049'
+  Access = Full
+}
+
+}
